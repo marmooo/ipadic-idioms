@@ -1,13 +1,11 @@
 # ipadic-idioms
 IPAdic からニ文字熟語や三文字熟語を機械的に生成します。
 
-# Installation
-```
-# install [IPAdic](https://ja.osdn.net/projects/ipadic/downloads/24435/ipadic-2.7.0.tar.gz/)
-npm install
-```
+## Installation
+1. install [IPAdic](https://ja.osdn.net/projects/ipadic/downloads/24435/ipadic-2.7.0.tar.gz/)
+2. ```npm install```
 
-# Usage
+## Usage
 ```
 node build.js
 ```
