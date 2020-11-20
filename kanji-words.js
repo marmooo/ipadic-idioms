@@ -150,7 +150,7 @@ dicts.forEach(dict => {
         }
         if (!filtered) {
           if (cost < threshold) {
-            if (level == 9) {
+            if (level == 10) {
               yomis[idiom] = yomi;  // 重複不許可
             }
             idioms[idiom] = true;
@@ -184,7 +184,7 @@ idioms = arr.reduce(function(map, obj) {
 }, {});
 
 fs.writeFileSync('dist/' + level + '.lst', Object.keys(idioms).join('\n'));
-if (level == 9) {
+if (level == 10) {
   fs.writeFileSync('dist/yomi.json', JSON.stringify(yomis));
 }
 
